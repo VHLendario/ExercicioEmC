@@ -1,3 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    printf("Olá, mundo!\n");
+    return 0;
+}
+
 /* 
 Questões da atividade do Classroom. Segue as respotas:    
 01:
@@ -34,14 +41,14 @@ E facilitando a compreensão dos programadores.
  
 /* 04: */
 #include <stdio.h>
-int main (void) {
+int questao04 (void) {
 printf ("Inicio do programa\nFim");
 return 0;
 }
 
 /* 05: */
 #include <stdio.h>
-int main (void) {
+int questao05 (void) {
 int n;
 printf ("Escreva um numero inteiro qualquer: ");
 scanf("%d", &n);
@@ -51,7 +58,7 @@ return 0;
 
 /* 06: */
 #include <stdio.h>
-int main (void) {
+int questao06 (void) {
 int n;
 printf ("Escreva um numero inteiro qualquer: ");
 scanf("%d", &n);
@@ -61,7 +68,7 @@ return 0;
 
 /* 07: */
 #include <stdio.h>
-int main (void) {
+int questao07 (void) {
 int n;
 printf ("Escreva um numero inteiro qualquer: ");
 scanf("%d", &n);
@@ -71,7 +78,7 @@ return 0;
 
 /* 08: */
 #include <stdio.h>
-int main (void) {
+int questao08 (void) {
 int n01,n02,n03;
 printf ("Escreva um numero inteiro qualquer: ");
 scanf("%d", &n01);
@@ -85,7 +92,7 @@ return 0;
 
 /* 09: */
 #include <stdio.h>
-int main (void) {
+int questao09 (void) {
 float n01,n02,n03,n04;
 printf ("Escreva um numero real qualquer: ");
 scanf("%f", &n01);
@@ -101,9 +108,9 @@ return 0;
 
 /* 10: */
 #include<stdio.h>
-int main(void) {
+int questao10 (void) {
     float C, F;
-    prinft("Digite o valor da temperatura em graus Celsius: ");
+    printf("Digite o valor da temperatura em graus Celsius: ");
     scanf("%f", &C);
     printf("O valor da temperatura em Fahrenheit: %f", (C*9 + 32*5)/5);
     return 0;   
@@ -111,7 +118,7 @@ int main(void) {
 
 /* 11: */
 #include<stdio.h>
-int main(void) {
+int questao11 (void) {
     int quantia = 780000;
     printf("Valor para o primeiro ganhador: %d\nValor para o segundo ganhador: %d\nO valor para o terceiro ganhador: %d", (quantia*46)/100, (quantia*32)/100, (quantia*22)/100);
     return 0;   
@@ -119,7 +126,7 @@ int main(void) {
 
 /* 12: */
 #include<stdio.h>
-int main(void) {
+int questao12 (void) {
     float R, pi = 3.141592;
     printf ("Digite o valor do raio de um circulo: ");
     scanf("%f", &R);
@@ -129,7 +136,8 @@ int main(void) {
 
 /* 13: */
 #include<stdio.h>
-int main(void) {
+#include<math.h>
+int questao13 (void) {
     float a, b;
     printf ("Digite o valor do primeiro cateto do triangulo: ");
     scanf("%f", &a);
@@ -141,7 +149,7 @@ int main(void) {
 
 /* 14: */
 #include<stdio.h>
-int main(void) {
+int questao14 (void) {
     float a, b;
     printf ("Digite o valor de um numero qualquer: ");
     scanf("%f", &a);
@@ -165,7 +173,7 @@ int main(void) {
 
 /* 15: */
 #include<stdio.h>
-int main(void) {
+int questao15 (void) {
     int a;
     printf("Digite o valor de um numero inteiro qualquer: ");
     scanf ("%d", &a);
@@ -180,7 +188,7 @@ int main(void) {
 
 /* 16: */
 #include<stdio.h>
-int main(void) {
+int questao16 (void) {
     float salario, emprestimo;
     int vezes;
     printf("Bem vindo ao setor de emprestimo, qual o valor do emprestimo que o senhor deseja realizar? ");
@@ -201,7 +209,8 @@ int main(void) {
 
 /* 17:  */
 #include<stdio.h>
-int main(void) {
+#include<math.h>
+int questao17 (void) {
     int a, b, c, delta, r1, r2;
     printf("Vamos calcular as raizes de uma equacao do segundo grau, digite o valor do coeficiente a: ");
     scanf("%d", &a);
@@ -241,7 +250,7 @@ d) scanf("d", valor);
 
 /* 19:
 Existem três printf, sendo:
-1°prinft (linha 06): Retorna 4 e 5.7
+1°printf (linha 06): Retorna 4 e 5.7
 2°printf (linha 09): Retorna 3 e 6
 3°printf (linha 12): Retorna 2 e 9
 4°printf (linha 13): Retorna 3 e 6
